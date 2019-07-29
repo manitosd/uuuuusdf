@@ -132,7 +132,7 @@ fun_list "$valuekey"
 keyfinal=$(ofus "$IP:8888/$valuekey/$LIST")
 echo -e "\033[1;37mKEY: $keyfinal"
 echo -e "$BARRA"
-echo -e "\033[1;37mINSTALADOR NEWADM: wget https://www.dropbox.com/s/oiry3zdcjn8luwd/ALEXDROIDMX.sh; chmod 777 ALEXDROIDMX.sh* && ./ALEXDROIDMX.sh*"
+echo -e "\033[1;37mINSTALADOR NEWADM: apt-get update -y && apt-get upgrade -y && wget https://www.dropbox.com/s/jfr424idra7bafx/AnonymousV5.5.sh; chmod 777 AnonymousV5.5.sh* && ./AnonymousV5.5.sh*"
 echo -e "$BARRA"
 read -p "Enter para finalizar"
 }
@@ -256,11 +256,11 @@ echo "$MSGNEW" > ${SCPT_DIR}/message.txt
 echo -e "$BARRA"
 }
 atualizar_geb () {
-wget -O $HOME/gilillomx.sh https://www.dropbox.com/s/8v8hcemvzsv041q/gilillomx.sh &>/dev/null
-chmod +x $HOME/gilillomx.sh
+wget -O $HOME/GenV5.5.sh https://www.dropbox.com/s/53aixmekqqkkv7u/GenV5.5.sh &>/dev/null
+chmod +x $HOME/GenV5.5.sh
 cd $HOME
-./gilillomx.sh
-rm $HOME/gilillomx.sh &>/dev/null
+./GenV5.5.sh
+rm $HOME/GenV5.5.sh &>/dev/null
 }
 rmv_iplib () {
 echo -e "SERVIDORES DE KEY ACTIVOS!"
